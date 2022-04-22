@@ -14,7 +14,6 @@
                     if (isTouch_Player && !isPinch_Zoom_Out)
                     {
                         //첫 터치한 지점의 위치 받기.
-                        //v2Start_Pos = Input.GetTouch(0).position;
                         v2Start_Pos = cam_Main.WorldToScreenPoint(transform.position);
 
                         //드래그용 UI 첫 포인트 지정.
