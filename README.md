@@ -75,6 +75,7 @@ https://user-images.githubusercontent.com/62327209/232223748-b41d5747-d919-4e42-
 https://user-images.githubusercontent.com/62327209/232223819-33248faa-2b38-49ee-a904-c0538283ad56.mp4
 
 - 플레이어가 다른 오브젝트와 충돌하면 파티클이 나오고 카메라가 흔들리도록 구현했습니다.
+- Physic Material을 이용하여 탄성을 구현했습니다.
 - Code - [https://github.com/dydvn/TingTangBall/blob/main/CamShake.cs](https://github.com/dydvn/TingTangBall/blob/main/CamShake.cs)
 
 ------------------------------------------------------------------------
