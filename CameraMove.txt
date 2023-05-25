@@ -1,0 +1,24 @@
+private void LateUpdate()
+{
+    distance = Mathf.Lerp(distance, distance_test, fCam_Smooth_Move_Scale * Time.deltaTime);
+    dir = new Vector3(0, 0, -distance);
+    rotation = Quaternion.Euler(currentY, currentX, 0);
+    if (bFollowStart)
+    {
+        if (!isDie)
+        {
+            cam_Main.transform.position = Vector3.Lerp(cam_Main.transform.position, (target.position + rotation * dir), fCam_Smooth_Move_Scale * Time.deltaTime);
+
+            offset = Vector3.Lerp(offset, offset_test, (fCam_Smooth_Move_Scale * 0.5f) * Time.deltaTime);
+        }
+        else
+        {
+            cam_Main.transform.position = Vector3.Lerp(cam_Main.transform.position, v3_Game_Over_Pos, fCam_Smooth_Move_Scale * Time.deltaTime);
+        }
+
+        if (isCam_Shake)
+            cam_Main.transform.LookAt(target.position + offset + v3_ShakePos);
+        else
+            cam_Main.transform.LookAt(target.position + offset);
+    }
+}
