@@ -27,7 +27,9 @@ Platform : Mobile (Google play)
 🛠 플레이어 조작
 
 
+
 https://user-images.githubusercontent.com/62327209/232223670-588317f3-3b81-42e4-8667-074bdd6b3cfb.mp4
+
 
 
 
@@ -38,6 +40,7 @@ https://user-images.githubusercontent.com/62327209/232223670-588317f3-3b81-42e4-
 ------------------------------------------------------------------------
 
 🛠 Excel을 이용한 맵 생성 알고리즘
+
 
 ![1](https://user-images.githubusercontent.com/62327209/232223090-8d740699-f326-4956-b58b-7880a7ed57ff.png)
 
@@ -72,8 +75,12 @@ https://user-images.githubusercontent.com/62327209/232223748-b41d5747-d919-4e42-
 🛠 파티클, 카메라 흔들림, 물리적 작동
 
 
+
 https://user-images.githubusercontent.com/62327209/232223819-33248faa-2b38-49ee-a904-c0538283ad56.mp4
 
+
+- 카메라 움직임을 제어하는 부분입니다.
+- Code - https://github.com/dydvn/TingTangBall_Portfolio/blob/main/CameraMove.txt
 - 플레이어가 다른 오브젝트와 충돌하면 파티클이 나오고 카메라가 흔들리도록 구현했습니다.
 - Physic Material을 이용하여 탄성을 구현했습니다.
 - Code - [https://github.com/dydvn/TingTangBall/blob/main/CamShake.cs](https://github.com/dydvn/TingTangBall/blob/main/CamShake.cs)
